@@ -1,5 +1,30 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #FCC6BB;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 665px;
+    margin: auto;
+    background-color: #FAA18F;
+    padding: 10px;
+    margin-top: 200px;
+    border-radius: 7px;
+}
+.buttonExc{
+    display: flex;
+    justify-content: center;
+}
+#button1{
+    border-radius: 5px;
+    background-color: #F5B027;
+    color: white;
+    border-bottom-color: #5f9ea014;
+    border-color: #5f9ea000
+}
+h1,p{
+    display: flex;
+    justify-content: center;
 }
